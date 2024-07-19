@@ -25,15 +25,15 @@ export default function Navbar() {
               <li className="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1">
                 <a href="/ai">AI ตววจวินิจฉัยโรค</a>
               </li>
-              {/* <li className="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1">
-                <a href="#">การประเมินนโยบายสาธารณะ</a>
-              </li> */}
+              <li className="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1">
+                <a href="/evaluation">การประเมินนโยบายสาธารณะ</a>
+              </li>
               <li className="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1">
                 <a href="#">ChatGDP</a>
               </li>
-              <li className="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1">
+              {/* <li className="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1">
                 <a href="#">ทีมงาน</a>
-              </li>
+              </li> */}
               <li className="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1">
                 <a href="#">ติดต่อ</a>
               </li>
