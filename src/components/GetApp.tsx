@@ -1,5 +1,5 @@
 import React from "react";
-
+import Link from "next/link";
 export default function GetApp() {
   return (
     <div>
@@ -15,16 +15,23 @@ export default function GetApp() {
               </div>
               <div className="md:flex-grow">
                 <h2 className="text-2xl font-medium text-gray-900 title-font mb-2">
-                  การเรียนรู้ของเครื่อง
+                  AI ตรวจวินิจฉัยโรค
                 </h2>
                 <p className="leading-relaxed">
-                  Glossier echo park pug, church-key sartorial biodiesel
-                  vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf
-                  moon party messenger bag selfies, poke vaporware kombucha
-                  lumbersexual pork belly polaroid hoodie portland craft beer.
+                  Machine Learning คือ ส่วนการเรียนรู้ของเครื่อง
+                  ถูกใช้งานเสมือนเป็นสมองของ AI (Artificial Intelligence)
+                  เราอาจพูดได้ว่า AI ใช้ Machine Learning ในการสร้างความฉลาด
+                  มักจะใช้เรียกโมเดลที่เกิดจากการเรียนรู้ของปัญญาประดิษฐ์
+                  ไม่ได้เกิดจากการเขียนโดยใช้มนุษย์
+                  มนุษย์มีหน้าที่เขียนโปรแกรมให้ AI (เครื่อง)
+                  เรียนรู้จากข้อมูลเท่านั้น ที่เหลือเครื่องจัดการเอง
                 </p>
-                <a className="text-indigo-500 inline-flex items-center mt-4">
-                  Learn More
+                <a
+                  href="http://127.0.0.1:8000/"
+                  target="_blank"
+                  className="text-indigo-500 inline-flex items-center mt-4"
+                >
+                  คลิกตรวจโรควินิจฉันได้ที่นี่
                   <svg
                     className="w-4 h-4 ml-2"
                     viewBox="0 0 24 24"
@@ -49,16 +56,23 @@ export default function GetApp() {
               </div>
               <div className="md:flex-grow">
                 <h2 className="text-2xl font-medium text-gray-900 title-font mb-2">
-                 การเรียนรู้เชิงลึก
+                  AI ตรวจวินิจฉัยโรคมะเร็งผิวหนัง
                 </h2>
                 <p className="leading-relaxed">
-                  Glossier echo park pug, church-key sartorial biodiesel
-                  vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf
-                  moon party messenger bag selfies, poke vaporware kombucha
-                  lumbersexual pork belly polaroid hoodie portland craft beer.
+                  Deep Learning คือวิธีการเรียนรู้แบบอัตโนมัติด้วยการ
+                  เลียนแบบการทำงานของโครงข่ายประสาทของมนุษย์ (Neurons)
+                  โดยนำระบบโครงข่ายประสาท (Neural Network) มาซ้อนกัน หลายชั้น
+                  (Layer) และทำการเรียนรู้ข้อมูลตัวอย่าง ซึ่งข้อมูล
+                  ดังกล่าวจะถูกนำไปใช้ในการตรวจจับรูปแบบ (Pattern) หรือจัด
+                  หมวดหมู่ข้อมูล (Classify the Data)
                 </p>
-                <a className="text-indigo-500 inline-flex items-center mt-4">
-                  Learn More
+                <Link
+                  href="http://127.0.0.1:5000/predict"
+                  target="_blank"
+                  rel="nooper noreffer"
+                  className="text-indigo-500 inline-flex items-center mt-4"
+                >
+                  คลิกตรวจโรควินิจฉัยโรคมะเร็ง
                   <svg
                     className="w-4 h-4 ml-2"
                     viewBox="0 0 24 24"
@@ -71,7 +85,7 @@ export default function GetApp() {
                     <path d="M5 12h14" />
                     <path d="M12 5l7 7-7 7" />
                   </svg>
-                </a>
+                </Link>
               </div>
             </div>
             <div className="py-8 flex flex-wrap md:flex-nowrap">
@@ -83,7 +97,7 @@ export default function GetApp() {
               </div>
               <div className="md:flex-grow">
                 <h2 className="text-2xl font-medium text-gray-900 title-font mb-2">
-                 การสนทนา ChatBot
+                  การสนทนา ChatBot
                 </h2>
                 <p className="leading-relaxed">
                   Glossier echo park pug, church-key sartorial biodiesel

@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <div>
       <div className="flex justify-center ">
-        <div className="self-center top-0 w-full max-w-7xl shadow-lg p-3 mb-5 bg-body rounded">
+        <div className="self-center top-0 w-full max-w-7xl shadow-lg p-3 mb-5 bg-body rounded bg-green-300">
           <div className="flex justify-end items-center text-gray-700">
             {/* <div className="mx-2 my-4 ">
               <ion-icon
